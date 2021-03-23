@@ -1,0 +1,4 @@
+https://docs.docker.com/config/containers/logging/awslogs/
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/QuickStartEC2Instance.html
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AgentReference.html
+https://stackoverflow.com/questions/59188594/how-to-configure-awslogs-to-send-my-apps-stdout-stderr-to-cloudwatch

@@ -1,0 +1,36 @@
+root@ip-172-31-74-216:~# docker logs 92d
+WordPress not found in /var/www/html - copying now...
+Complete! WordPress has been successfully copied to /var/www/html
+[28-Feb-2021 23:35:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in Standard input code on line 22
+
+MySQL Connection Error: (2002) Connection refused
+
+MySQL Connection Error: (2002) Connection refused
+
+MySQL Connection Error: (2002) Connection refused
+
+MySQL Connection Error: (2002) Connection refused
+
+MySQL Connection Error: (2002) Connection refused
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Feb 28 23:35:58.071217 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.15 configured -- resuming normal operations
+[Sun Feb 28 23:35:58.071453 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+124.120.128.226 - - [28/Feb/2021:23:37:15 +0000] "GET / HTTP/1.1" 302 403 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:16 +0000] "GET /wp-admin/install.php HTTP/1.1" 200 4560 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:16 +0000] "GET /wp-includes/css/buttons.min.css?ver=5.6.2 HTTP/1.1" 200 1789 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:16 +0000] "GET /wp-admin/css/forms.min.css?ver=5.6.2 HTTP/1.1" 200 6470 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:16 +0000] "GET /wp-includes/css/dashicons.min.css?ver=5.6.2 HTTP/1.1" 200 36064 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-admin/css/l10n.min.css?ver=5.6.2 HTTP/1.1" 200 1022 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-admin/css/install.min.css?ver=5.6.2 HTTP/1.1" 200 2125 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-includes/js/jquery/jquery.min.js?ver=3.5.1 HTTP/1.1" 200 31269 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-admin/js/language-chooser.min.js?ver=5.6.2 HTTP/1.1" 200 617 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2 HTTP/1.1" 200 4521 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-admin/images/wordpress-logo.svg?ver=20131107 HTTP/1.1" 200 1810 "http://3.236.47.214/wp-admin/css/install.min.css?ver=5.6.2" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /wp-admin/images/spinner.gif HTTP/1.1" 200 3941 "http://3.236.47.214/wp-admin/css/install.min.css?ver=5.6.2" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:17 +0000] "GET /favicon.ico HTTP/1.1" 302 402 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+124.120.128.226 - - [28/Feb/2021:23:37:18 +0000] "GET /wp-admin/install.php HTTP/1.1" 200 4560 "http://3.236.47.214/wp-admin/install.php" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
+127.0.0.1 - - [28/Feb/2021:23:37:25 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.38 (Debian) PHP/7.4.15 (internal dummy connection)"
+127.0.0.1 - - [28/Feb/2021:23:37:26 +0000] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.38 (Debian) PHP/7.4.15 (internal dummy connection)"
+root@ip-172-31-74-216:~# 
+

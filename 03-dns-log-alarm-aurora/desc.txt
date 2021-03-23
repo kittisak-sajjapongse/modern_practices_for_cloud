@@ -1,0 +1,21 @@
+Q: How to specify the size of storage?
+    - Aurora storage is automatically scales
+    - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Performance.html#Aurora.Managing.Performance.StorageScaling
+    - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Performance.html#Aurora.Managing.Performance.StorageScaling
+
+Q: Why do we need to have WRITE/READ instances since read instances can modify databases?
+    - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-poc.html
+    - http://www.mrmarkyoung.com/oracle/2018/06/27/aws-aurora-reader-and-writer/
+
+Q: How to backup & restore? How to export to S3? Is the backup in the form of snapshots
+
+
+mysql -u admin -p -h database-1.cluster-c9rllgwq54pc.us-east-1.rds.amazonaws.com -P 3306
+
+1. Authentication done through IAM (iam_database_authentication_enabled)
+2. Restore backup from S3 (ingestion_role)
+
+
+Create Aurora Cluster
+1. Specify Security Groups
+2. Specify Backup Time

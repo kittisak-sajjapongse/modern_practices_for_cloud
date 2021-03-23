@@ -1,0 +1,5 @@
+aws-region       = "us-east-1"
+service-name     = "TarnWordPress"
+domain-name      = "tarntarnrocks.com"
+subdomain        = "tarnwordpress"
+alarm-sms-number = "+66992878797"
